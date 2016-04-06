@@ -1,0 +1,163 @@
+//General
+body
+    margin: 0
+    padding: 0
+    font-family: Arial, Helmet, Freesans, sans-serif
+p
+    font-size: 80%
+    line-height: 130%
+    margin: 0
+a
+    text-decoration: none
+ul
+    list-style: none
+li
+    display: inline-block
+    a
+        color: white
+hr
+    margin-top: 15px
+    margin-bottom: 10px
+
+// Custom Classes
+
+.clearfix
+    clear: both
+
+.bold
+    font-weight: bold
+
+.float-left
+    float: left
+
+.mini-headline
+    color: #575253
+    
+//Top Header
+.top-header
+    padding: 8px 0
+    background-color: #ccc
+    
+    ul
+        width: 976px
+        text-align: right
+        margin: 0
+        list-style: none
+        position: relative
+        
+    li
+        margin: 0px 10px
+
+//Category Header
+.category-nav
+    max-width: 976px
+    margin: 0 auto
+    margin-top: 65px
+    background-color: #440c0c
+    
+    ul
+        text-align: left
+    
+    li
+        padding: 5px 3px
+        font-size: 75%
+        margin: 0
+        
+        a
+            font-weight: bold
+            &:hover
+                text-decoration: underline
+    .activelink
+        padding: 5px
+        background-color: #eeeced
+        a
+            color: black
+            
+//
+// News Body
+//
+
+// Classes
+
+.vertical-article-links
+    ul
+        list-style: circle
+        margin-top: 8px
+        li
+            display: block
+            font-size: 80%
+            line-height: 150%
+            a
+                color: #255273
+                margin-left: 20px
+        
+
+.news-body
+    width: 976px
+    margin: 0 auto
+    
+    .left-news-column
+        padding-top: 0
+        max-width: 65%
+        float: left
+        
+        .cover-story
+            h1
+                margin-top: 0
+                margin-bottom: 9px
+                a
+                    color: #004e81
+            img
+                float: left
+                height: 216px
+                width: 384px
+                margin-right: 20px
+            
+        .secondary-story
+            img
+                float: left
+                margin-right: 10px
+            h2
+                font-size: 95%
+                margin-bottom: 7px
+                a
+                    color: #004e81
+            .new
+                font-size: 80%
+                margin: 3px
+                color: #af0000
+
+        .tertiary-story
+            img
+                float: left
+            h2
+                color: #575253
+                padding: 0
+                margin: 0
+            .left-side
+                float: left
+                max-width: 50%
+            .right-side
+                float: left
+                max-width: 50%
+
+        .tertiary-links
+            font-weight: bold
+            float: right
+            width: 50%
+            margin: 0 auto
+            
+            ul
+                margin: 0
+                padding: 0
+                
+            li
+                margin: 7px 0
+            
+            .yellow-number
+                color: de7f4a
+                margin-left: 15px
+                font-size: 90%
+    
+    .right-news-column
+        float: right
