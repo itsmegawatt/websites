@@ -1,0 +1,53 @@
+@media screen and (min-width: 480px) {
+
+  /*********************************
+  PAGE PRODUCTS
+  *********************************/
+
+  #products {
+    max-width: 480px;
+  }
+
+  .app-banner {
+    margin: 0 auto;
+  	width: 470px;
+  	padding: 7px;
+  }
+
+  .app-banner:hover {
+    margin: 0 auto;
+  	width: 470px;
+  	padding: 7px;
+  	background-color: rgba(255,255,255,0.5);
+  }
+
+}
+
+@media screen and (min-width: 660px) {
+
+  header {
+    height: 70px;
+  }
+
+  #logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 1.15em;
+  }
+
+  nav {
+    background: none;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.35em;
+  }
+
+  nav li {
+  }
+
+
+}

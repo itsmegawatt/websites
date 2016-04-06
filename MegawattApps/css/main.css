@@ -1,0 +1,373 @@
+/*********************************
+GENERAL
+*********************************/
+
+body {
+	background: url(../img/page-articles/pixelsky.jpg) #79caf9;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #55F;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.centered-ul {
+	text-align: left;
+	padding: 0px 45px;
+}
+
+.transparent-white-bg {
+	max-width: 960px;
+	text-align: left;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	padding: 1px 0 10px 10px;
+}
+
+/*********************************
+HEADER
+*********************************/
+header {
+	background-color: #F63;
+	padding: 0;
+}
+
+header h1 {
+		margin: 0;
+		text-align: center;
+		padding: 0 0 3px 0;
+}
+
+
+#logo {
+	font-family: 'righteous', sans-serif;
+	text-align: center;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+}
+
+#logo:hover {
+	color: #6F6;
+}
+
+
+/*********************************
+NAVIGATION
+*********************************/
+
+nav {
+	list-style: none;
+	text-align: center;
+	background-color: #D52;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 2px 3px;
+}
+
+nav ul li a {
+	font-family: 'Orbitron', sans-serif;
+	text-decoration: none;
+	color: white;
+	padding: 2px 15px;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #FC3;
+}
+
+
+/*********************************
+FOOTER
+*********************************/
+
+footer {
+	text-align: center;
+}
+
+.footer-social-media-button {
+	padding: 0 8px;
+	margin: 5px 0 0 0;
+	transition: all 0.5s ease;
+	width: 20px;
+	height: 20px;
+}
+
+.footer-social-media-button:hover {
+	transform: rotate(-30deg);
+}
+
+footer p {
+	margin: 2px 0 0 0;
+	color: #777;
+	font-size: .65em;
+}
+
+footer p a {
+	color: #555;
+}
+
+footer p a:hover {
+	color: #FFF;
+}
+
+#copyright:hover {
+	color: #FFF;
+}
+
+/*********************************
+PAGE INDEX/LANDING PAGE
+*********************************/
+ 
+#landing-page {
+    height: 100%;
+	background-color: rgba(255,255,255,0.5);	
+}
+
+#landing-page-body {
+    height: 100%
+}
+
+#landing-page-html {
+    height: 100%;
+}
+
+#phone-image-container {
+	height: 100%;
+}
+
+#email-list-container {
+}
+
+
+/*********************************
+PAGE ARTICLES
+*********************************/
+
+#articles {
+	text-align: center;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.article-entry {
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	padding: 10px 0;
+}
+
+.article-entry:hover {
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.articleheader {
+	font-size: 1.25em;
+	font-family: 'Orbitron', sans-serif;
+	margin: 0;
+}
+
+.article-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.article-link:hover {
+	color: #587dff;
+}
+
+.articleinfo {
+	font-family: "Fjalla One", sans-serif;
+	font-size: .9em;
+	margin: 5px 0;
+}
+
+.articletext {
+	text-align:center;
+	padding: 0;
+	margin: 0;
+}
+
+/*********************************
+PAGE ABOUT
+*********************************/
+
+#company-info {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#company-logo-holder {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+#company-logo-holder:hover {
+	max-width: 200px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.7);
+}
+
+#about-company-logo {
+	width: 160px;
+	margin: 10px 0 3px 0;
+}
+
+#about-company-logo-caption {
+	margin: 0;
+}
+
+.about-company-text {
+	text-align: left;
+	margin: 10px 30px 0 30px;
+}
+
+#about-members {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#about-members h2 {
+	margin: 10px 0 0 0;
+}
+
+.member-wrapper {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.member-wrapper:hover {
+	max-width: 200px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.member-profile-picture {
+	border-radius: 100%;
+	height: 150px;
+	padding: 10px;
+}
+
+.member-profile-info {
+	margin: 0 0 5px 0;
+}
+
+.member-profile-description {
+	margin: 10px 0 30px 0
+}
+
+
+/*********************************
+PAGE PRODUCTS
+*********************************/
+
+#products {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.products-header {
+	margin: 10px 0;
+}
+
+.app-banner {
+	width: 85%;
+	padding: 7px;
+}
+
+.app-banner:hover {
+	width: 85%;
+	padding: 7px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+/*********************************
+PAGE ARTICLE
+*********************************/
+
+.article {
+	max-width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	padding: 0 0 10px 0;
+}
+
+.article-title {
+	margin: 5px 0;
+}
+
+.article-about {
+	font-family: "Fjalla One", sans-serif;
+	margin: 5px 0;
+}
+
+.article-image-holder {
+	margin: 5px auto;
+	padding: 5px 0;
+	display: inline-block;
+	max-width: 65%;
+}
+
+.article-image-holder:hover {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.article-large-centered-image {
+	width: 95%;
+}
+
+.article-three-images {
+	width: 30%;
+	vertical-align: middle;
+}
+
+.article-image-caption {
+	margin: 0;
+	font-size: .9em;
+}
+
+.article-text {
+	text-align: left;
+	padding: 5px 30px;
+	margin: 0;
+}
+
+/*********************************
+PAGE CHANGELOG
+*********************************/
+
+.changelog-section li {
+		text-decoration: none;
+}
+
+/*********************************
+UNORGANIZED
+*********************************/
+
+head, title {
+    display: block;
+    font-size: 100px;
+    color: aliceblue;
+    
+}
